@@ -133,9 +133,11 @@ sudo ldconfig
 ## 7. 将OpenCV和Python3虚拟环境链接起来
 
 首先确认OpenCV的位置
+
 '''
 ls /usr/local/lib/python3.x/site-packages/cv2/python-3.x/
 '''
+
 该目录下应当有一个文件，名为`cv2.cpython-3x-x86_64-linux-gnu.so`
 
 如果找不到，可是试着`sudo find / -name cv2.cpython-*`
