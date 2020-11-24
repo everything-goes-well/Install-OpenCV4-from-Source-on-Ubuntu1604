@@ -134,9 +134,9 @@ sudo ldconfig
 
 首先确认OpenCV的位置
 
-'''
+```
 ls /usr/local/lib/python3.x/site-packages/cv2/python-3.x/
-'''
+```
 
 该目录下应当有一个文件，名为`cv2.cpython-3x-x86_64-linux-gnu.so`
 
