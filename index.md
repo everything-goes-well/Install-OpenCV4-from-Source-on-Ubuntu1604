@@ -1,4 +1,7 @@
-*源码安装需要科学合理使用网络*
+*源码安装OpenCV需要科学合理使用网络*
+*源码安装OpenCV需要科学合理使用网络*
+*源码安装OpenCV需要科学合理使用网络*
+*源码安装OpenCV需要科学合理使用网络*
 
 # 在Ubuntu1604中使用源码安装Python3和OpenCV4
 
@@ -43,7 +46,7 @@ sudo apt-get install -y make build-essential libssl-dev zlib1g-dev \
 ```
 ### 4.3 编译安装
 ```
-tar xvf Python-3.x.y.tgz
+tar -zxvf Python-3.x.y.tgz
 cd Python-3.x.y
 ./configure --enable-optimizations --with-ensurepip=install
 make -j 8
@@ -118,7 +121,7 @@ cmake以后，需要着重观察以下内容
 
 	None-free algorithms: YES
 
-其中，<$YOUR_HOME_PATH>应当是你的用户路径，通常来说应当是/home/<usrname>
+其中，<$YOUR_HOME_PATH>应当是你的用户路径，通常来说应当是/home/\<usrname\>
 
 上述信息确认无误后，执行：
 ```
