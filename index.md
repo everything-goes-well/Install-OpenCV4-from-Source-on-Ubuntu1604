@@ -1,6 +1,9 @@
 *源码安装OpenCV需要科学合理使用网络*
+
 *源码安装OpenCV需要科学合理使用网络*
+
 *源码安装OpenCV需要科学合理使用网络*
+
 *源码安装OpenCV需要科学合理使用网络*
 
 # 在Ubuntu1604中使用源码安装Python3和OpenCV4
