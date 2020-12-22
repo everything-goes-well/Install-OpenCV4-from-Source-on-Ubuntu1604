@@ -81,8 +81,8 @@ sudo pip install virtualenv virtualenvwrapper -i https://mirrors.aliyun.com/pypi
 # virtualenv and virtualenvwrapper
 export WORKON_HOME=$HOME/.virtualenvs
 export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3.x
-source $HOME/.local/bin/virtualenvwrapper.sh
-# 路径也可能是/usr/local/bin/virtualenvwrapper.sh，取决于是否sudo
+source /usr/local/bin/virtualenvwrapper.sh
+# 路径也可能是$HOME/.local/bin/virtualenvwrapper.sh，取决于pip install virtualenv virtualenvwrapper过程是否sudo
 ```
 或者使用如下方法在命令行中直接修改环境变量(已经`gedit ~/.bashrc`的话，不用重复执行这一步)
 ```
